@@ -1,7 +1,10 @@
+import Sidebar from '../Sidebar';
 import './index.scss';
 
 const Layout = () => {
-    return <>Let's see if we have been precisely following the tutorial video. IF so, this will be tiny and show!</>
+    return <>
+        <Sidebar />
+    </>
 }
 
 export default Layout;

@@ -6,10 +6,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
 
 const Sidebar = () => (
-    <div className = 'navbar'>
-        <Link className = 'logo' to = '/'>
+    <div className = "navbar">
+        <Link className = "logo" to = "/">
             <img src ={LogoS} alt = "logo" />
-            <img className = 'sub-logo' src ={LogoSubtitle} alt = "logo-subtitle" />
+            <img className = "sub-logo" src ={LogoSubtitle} alt = "logo-subtitle" />
         </Link>
         <nav>
             <NavLink exact = "true" activeclassname = "active" to = "/">
@@ -25,4 +25,4 @@ const Sidebar = () => (
     </div>
 )
 
-export default Sidebar
+export default Sidebar;
