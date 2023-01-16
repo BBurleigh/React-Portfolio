@@ -23,7 +23,7 @@ const Home = () => {
                     <span className = {`${letterClass} _14`}>I</span>
                     <span className = {`${letterClass} _15`}>'m</span>
                 <img src = { LogoTitle } alt = "developer" />
-                <AnimatedLetters letterClass = {letterClass} strArray = {nameArray} idx = {18} />
+                <AnimatedLetters letterClass = {letterClass} strArray = {nameArray} idx = {16} />
                 <br />
                 <AnimatedLetters letterClass = {letterClass} strArray = {jobArray} idx = {22} />
                 </h1>
