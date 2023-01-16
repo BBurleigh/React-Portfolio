@@ -1,5 +1,7 @@
 import '.index.scss';
 import LogoTitle from '../../assets/images/logo-s.png';
+import { Link } from 'react-router-dom';
+
 
 const Home = () => {
 
@@ -13,7 +15,7 @@ const Home = () => {
                 a developing developer.
                 </h1>
                 <h2>FullStack Web Developer / Educator / Writer </h2>
-                <Link>CONTACT ME</Link>
+                <Link to = "/contact" className = "flat-button">Contact me, whether it's to say hello or about a potential project.</Link>
             </div>
         
         </div>
