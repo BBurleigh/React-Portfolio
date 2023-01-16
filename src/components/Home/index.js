@@ -1,9 +1,9 @@
 import './index.scss';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-// import Loader from 'react-loaders';
+import Loader from 'react-loaders';
 import LogoTitle from '../../assets/images/logo-s.png';
-// import Logo from './Logo';
+import Logo from './Logo';
 import AnimatedLetters from '../AnimatedLetters';
 
 
@@ -42,7 +42,7 @@ const Home = () => {
                 <h2>FullStack Web Developer / Educator / Writer </h2>
                 <Link to = "/contact" className = "flat-button">Contact me, whether it's to say hello or about a potential project.</Link>
             </div>
-        
+        <Logo />
         </div>
     )
 
