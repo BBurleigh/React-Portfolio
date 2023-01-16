@@ -17,7 +17,7 @@ const Home = () => {
     useEffect(() => {
          setTimeout(() => {
             return setLetterClass('text-animate-hover')
-        }, 4000)
+        }, 5000)
     }, [])
 
     return (
@@ -37,7 +37,7 @@ const Home = () => {
                 <br />
                 <AnimatedLetters letterClass = {letterClass} strArray = {jobArray} idx = {22} />
                 <br />
-                <AnimatedLetters letterClass = {letterClass} strArray = {jobArray2} idx = {34} />
+                <AnimatedLetters letterClass = {letterClass} strArray = {jobArray2} idx = {35} />
                 </h1>
                 <h2>FullStack Web Developer / Educator / Writer </h2>
                 <Link to = "/contact" className = "flat-button">Contact me, whether it's to say hello or about a potential project.</Link>
