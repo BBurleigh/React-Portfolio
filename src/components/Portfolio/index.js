@@ -2,13 +2,29 @@ import './index.scss';
 import React, { useEffect, useState } from 'react';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
-import portfolioData from '../../components/Data/portfolio.json';
+import portfolioData from '../../Data/portfolio.json';
 
 const Portfolio = () => {
+
+    // console.log(portfolioData);
 
     const [letterClass, setLetterClass] = useState('text-animate');
 
     const portfolioTitle = "Portfolio".split("");
+
+    const renderPortfolio = (portfolio) => {
+        return (<div images-container>
+            {
+                portfolio.map((port, idx) => {
+                    return (
+                        <div className = "image-box" key = {idx}>
+                            <img className = "portfolio-image" src = {port.cover_image} alt = "portfolio image" />
+                        </div>
+                    )
+                })
+            }
+        </div>)
+    };
 
     useEffect(() => {
         setTimeout(() => {
@@ -25,7 +41,7 @@ return (<div>
                         idx = {15}
                     />
                     <div>
-                        {renderPotfolio()}
+                        {renderPortfolio(portfolioData.portfolio)}
                     </div>
                 </h1>
 
