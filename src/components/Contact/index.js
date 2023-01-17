@@ -21,8 +21,7 @@ const Contact = () => {
    const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-    .sendForm('gmail', 'template_lis3x97', e.target, 'h71gAcwrk3I-zQSU2')
+    emailjs.sendForm('default_service', 'template_lis3x97', e.target, 'h71gAcwrk3I-zQSU2')
     .then(
         () => {
             alert("Your message has been sent, and I'll follow up with you in at most 24 hours!");
