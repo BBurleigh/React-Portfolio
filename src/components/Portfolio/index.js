@@ -7,6 +7,8 @@ const Portfolio = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate');
 
+    const portfolioTitle = "Portfolio".split("");
+
     useEffect(() => {
         setTimeout(() => {
            return setLetterClass('text-animate-hover')
@@ -17,7 +19,8 @@ return (<div>
             <div className = "container portfolio-page">
                 <h1 className = "page-title"> 
                     <AnimatedLetters
-                        strArray = {"Portfolio".split("")}
+                        letterClass = {letterClass}
+                        strArray = {portfolioTitle}
                         idx = {15}
                     />
                 </h1>
