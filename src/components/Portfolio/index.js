@@ -2,6 +2,7 @@ import './index.scss';
 import React, { useEffect, useState } from 'react';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
+import portfolioData from '../../components/Data/portfolio.json';
 
 const Portfolio = () => {
 
@@ -23,6 +24,9 @@ return (<div>
                         strArray = {portfolioTitle}
                         idx = {15}
                     />
+                    <div>
+                        {renderPotfolio()}
+                    </div>
                 </h1>
 
             </div>
