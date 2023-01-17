@@ -12,11 +12,11 @@ const Home = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate');
 
-    const nameArray = ['Z', 'e', 'l', 'p', 'h'];
+    const nameArray = "Zelph".split("")
 
-    const jobArray = ['a', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'i', 'n', 'g'];
+    const jobArray = "a developing".split("");
     
-    const jobArray2 = ['d', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
+    const jobArray2 = "developer".split("");
 
     useEffect(() => {
          setTimeout(() => {

@@ -10,7 +10,7 @@ const Contact = () => {
 
     const form = useRef();
 
-    const contactTitle = ['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e'];
+    const contactTitle = "Contact me".split("");
 
     useEffect(() => {
         setTimeout(() => {

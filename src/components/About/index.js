@@ -9,7 +9,7 @@ const About = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate');
 
-    const aboutTitle = ['A', 'b', 'o', 'u', 't', ' ', 'm', 'e'];
+    const aboutTitle = "About me".split("");
     
     useEffect(() => {
         setTimeout(() => {
