@@ -6,13 +6,15 @@
     top: 0;
     z-index: 3;
     min-height: 500px;
+    border-right: 5px solid #2e3138;
 
     .logo img {
         display: block;
         padding: 8px 0;
-        margin: 12px 10px;
-        width: 90px;
-        height: 80px;
+        margin: 12px 30px;
+        width: 100px;
+        height: 90px;
+        border-radius: 80px;
     }
 
     nav {
