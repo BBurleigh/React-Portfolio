@@ -27,6 +27,11 @@
         max-width: calc(25% - 10px);
         padding-right: 25px;
 
+        img {
+            height: 30%;
+            width: 110%;
+        }
+
         .portfolio-page {
             position: absolute;
             z-index: 2;
