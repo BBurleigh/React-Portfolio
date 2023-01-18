@@ -12,6 +12,9 @@ The following commands will need to be run in the user's terminal, with the exce
 
 2) npm start --> run local server
 
+Alternatively, you can access the website from this link:
+[Burleigh's React Portfolio](https://bburleigh.github.io/react-portfolio)
+
 The following packages were used: 
 - "@emailjs/browser": "^3.10.0",
 - "@fortawesome/free-brands-svg-icons": "^6.2.1",
