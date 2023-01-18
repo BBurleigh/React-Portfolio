@@ -28,13 +28,28 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    WHAT I'M LOOKING FOR IS... ambition
+                I have always found myself drawn to discovering and 
+understanding patterns, correlations, and why something is the
+way it is. It's one of the reasons I love mathematics and the
+analytical side of writing. And it's why I've been fascinated
+with coding and am looking for a position somewhere in the 
+coding world.
                 </p>
                 <p>
-                    MY EDUCATION/BACKGROUND... confidence
+                Given my educational background, I have never been one
+to shy away from challenges. For the past 5 years, I have 
+taught high school math, ranging from Geometry to Probability
+and Statistics. Prior to this, I graduated from college with 
+degrees in mathematics secondary education as well as English:
+literary studies. And during my fifth year of teaching, I
+earned my full stack flex certification.
                 </p>
                 <p>
-                    OUTSIDE OF WORK... creative
+                Outside of work, I balance my passion for being active
+exercising with satisfying my creative desires. I'm an avid
+runner, and beyond that, I'm a fiction/fantasy writer who 
+regularly works with different writing groups. And beyond
+myself, I volunteer regularly at an animal shelter.
                 </p>
 
                 <div className = "stage-cube-cont">

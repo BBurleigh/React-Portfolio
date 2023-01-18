@@ -25,7 +25,7 @@ const Resume = () => {
                         idx = {15}
                         />
                     </h1>
-                    <iframe className = "resume-container" src="https://drive.google.com/file/d/1leCnSuOcqdlvZ2yvqocCEFwQCludWt9y/preview" width="800" height="600" allow="autoplay"></iframe>
+                    <iframe className = "resume-container" src="https://drive.google.com/file/d/1leCnSuOcqdlvZ2yvqocCEFwQCludWt9y/preview" width="800" height="500" allow="autoplay"></iframe>
                 </div>
             <Loader type = "pacman" />
         </div>    
