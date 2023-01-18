@@ -1,7 +1,37 @@
 {
     "portfolio": [
         {
-            "cover_image": "/portfolio/images/Inspirit.png",
+            "cover_image": "/portfolio/images/Inspirit (2).png",
+            "title": "Inspirit",
+            "description": "An app that allows users to discover inspiration from a series of generated quotes, and with creating an account, save those quotes for later access. It follows the MVC format, using primarily JS and Handlebars.",
+            "url": "https://github.com/BBurleigh/Inspirit"
+        },
+        {
+            "cover_image": "/portfolio/images/Inspirit (2).png",
+            "title": "Inspirit",
+            "description": "An app that allows users to discover inspiration from a series of generated quotes, and with creating an account, save those quotes for later access. It follows the MVC format, using primarily JS and Handlebars.",
+            "url": "https://github.com/BBurleigh/Inspirit"
+        },
+        {
+            "cover_image": "/portfolio/images/Inspirit (2).png",
+            "title": "Inspirit",
+            "description": "An app that allows users to discover inspiration from a series of generated quotes, and with creating an account, save those quotes for later access. It follows the MVC format, using primarily JS and Handlebars.",
+            "url": "https://github.com/BBurleigh/Inspirit"
+        },
+        {
+            "cover_image": "/portfolio/images/Inspirit (2).png",
+            "title": "Inspirit",
+            "description": "An app that allows users to discover inspiration from a series of generated quotes, and with creating an account, save those quotes for later access. It follows the MVC format, using primarily JS and Handlebars.",
+            "url": "https://github.com/BBurleigh/Inspirit"
+        },
+        {
+            "cover_image": "/portfolio/images/Inspirit (2).png",
+            "title": "Inspirit",
+            "description": "An app that allows users to discover inspiration from a series of generated quotes, and with creating an account, save those quotes for later access. It follows the MVC format, using primarily JS and Handlebars.",
+            "url": "https://github.com/BBurleigh/Inspirit"
+        },
+        {
+            "cover_image": "/portfolio/images/Inspirit (2).png",
             "title": "Inspirit",
             "description": "An app that allows users to discover inspiration from a series of generated quotes, and with creating an account, save those quotes for later access. It follows the MVC format, using primarily JS and Handlebars.",
             "url": "https://github.com/BBurleigh/Inspirit"

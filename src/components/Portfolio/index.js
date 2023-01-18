@@ -13,7 +13,7 @@ const Portfolio = () => {
     const portfolioTitle = "Portfolio".split("");
 
     const renderPortfolio = (portfolio) => {
-        return (<div images-container>
+        return (<div className = "images-container">
             {
                 portfolio.map((port, idx) => {
                     return (
