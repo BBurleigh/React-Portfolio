@@ -10,34 +10,11 @@
     }
 
     h1 {
-        color: #fff;
+        color: #2e3138;
         font-size: 53px;
         margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
-
-        &::before {
-            content: '<h1>';
-            font-family: 'La Belle Aurore';
-            color: #adebce;
-            font-size: 18px;
-            position: absolute;
-            margin-top: -40px;
-            left: 15px;
-            opacity: 0.6;
-        }
-
-        &::after {
-            content: '<h1 />';
-            font-family: 'La Belle Aurore';
-            color:#adebce;
-            font-size: 18px;
-            position: absolute;
-            margin-top: 18px;
-            margin-left: 20px;
-            animation: fadeIn 1s 1.7s backwards;
-            opacity: 0.6;
-        }
 
         img {
             width: 32px;
@@ -50,10 +27,10 @@
     }
 
     h2 {
-        color: #8d8d8d;
+        color: #2e3138;
         margin-top: 20px;
         font-weight: 400;
-        font-size: 11px;
+        font-size: 14px;
         font-family: sans-serif;
         letter-spacing: 3px;
         animation: fadeIn 1s 1.8s backwards;
@@ -61,13 +38,14 @@
 
     .flat-button {
         color: #adebce;
+        background-color: #2e3138;
         font-size: 13px;
-        font-weight: 400;
+        font-weight: 300;
         letter-spacing: 4px;
         font-family: sans-serif;
         text-decoration: none;
         padding: 10px 10px;
-        border: 1px solid #6c6f7d;
+        border: 1px solid #adebce;
         margin-top: 25px;
         float: left;
         animation: fadeIn 1s 1.8s backwards;
@@ -75,7 +53,9 @@
 
         &:hover {
             background: #adebce;
-            color: #333;
+            color: #2e3138;
+            font-weight: 600;
+            border: 1px solid #2e3138
         }
     }
 }

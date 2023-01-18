@@ -1,7 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
 import LogoS from '../../assets/images/zelph_logo.PNG';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome,  faPaperclip, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
