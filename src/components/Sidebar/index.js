@@ -11,7 +11,7 @@ const Sidebar = () => (
             <img src ={LogoS} alt = "logo" />
         </Link>
         <nav>
-            <NavLink exact = "true" activeclassname = "active" to = "/">
+            <NavLink exact = "true" activeclassname = "active" to = "/React-Portfolio">
                 <FontAwesomeIcon icon = {faHome} color = "#2e3138" />
             </NavLink>
             <NavLink exact = "true" activeclassname = "active" className = "about-link" to = "/about">
