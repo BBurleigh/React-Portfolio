@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.b1ffa9e4.css",
-    "main.js": "/react-portfolio/static/js/main.8379311b.js",
+    "main.js": "/react-portfolio/static/js/main.d5a4b471.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/zelph_logo.PNG": "/react-portfolio/static/media/zelph_logo.99bde985362db0466fb1.PNG",
     "static/media/zelph_persona.jpg": "/react-portfolio/static/media/zelph_persona.20487d235466348af440.jpg",
@@ -10,11 +10,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/react-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/react-portfolio/index.html",
     "main.b1ffa9e4.css.map": "/react-portfolio/static/css/main.b1ffa9e4.css.map",
-    "main.8379311b.js.map": "/react-portfolio/static/js/main.8379311b.js.map",
+    "main.d5a4b471.js.map": "/react-portfolio/static/js/main.d5a4b471.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1ffa9e4.css",
-    "static/js/main.8379311b.js"
+    "static/js/main.d5a4b471.js"
   ]
 }
