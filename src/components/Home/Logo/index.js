@@ -1,5 +1,5 @@
 import './index.scss';
-import LogoS from '../../../assets/images/zelph_persona.jpg';
+import zelphLogo from '../../../assets/images/zelph_persona.jpg';
 import gsap from 'gsap-trial';
 import { useEffect, useRef } from 'react';
 
@@ -35,7 +35,7 @@ const Logo = () => {
     
     return (
         <div className = "logo-container" ref = {bgRef}>
-            <img ref = {solidLogoRef} className = "solid-logo" src = {LogoS} alt = "S" />
+            <img ref = {solidLogoRef} className = "solid-logo" src = {zelphLogo} alt = "zelph_logo" />
         </div>
     )
 
