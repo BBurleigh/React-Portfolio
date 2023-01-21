@@ -11,3 +11,19 @@
         margin-top: 50px;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .resume-title {
+        position: fixed;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .resume-container {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        width: 50%;
+        height: 50%;
+    }
+}

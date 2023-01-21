@@ -116,3 +116,36 @@
         }
     }
 }
+
+@media screen and (max-width: 850px) {
+    .images-container {
+        height: 100px;
+    }
+
+    .image-box {
+        position: absolute;
+        display: flex;
+        flex: 1;
+        align-items: center;
+        margin-left: 100px;
+    }
+
+    .portfolio-page {
+        height: auto;
+        width: auto;
+    }
+
+    .btn {
+        position: initial;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .title {
+        position: absolute;
+        text-align: left;
+        
+    }
+}
